@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="./Css/Zebo.css">
+    <!-- font -->
+    <link rel="stylesheet" href="./Css/all.min.css">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./Css/Normalize.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>Zebb</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+        <a href="#" class="logo">
+            <svg
+            width="103"
+            height="104"
+            viewBox="0 0 103 104"
+            fill="none"
+><path
+    d="M48.1585 44.3943L14.1205 78.6156C13.397 79.3429 12.823 80.2062 12.4314 81.1567C12.0399 82.1069 11.8382 83.1254 11.8382 84.1541C11.8382 85.1826 12.0395 86.2013 12.4309 87.1515C12.8224 88.1019 13.3963 88.9655 14.1198 89.6928C14.8431 90.4204 15.7019 90.9973 16.6472 91.3909C17.5923 91.7847 18.6054 91.9873 19.6286 91.9875C20.6518 91.9875 21.6649 91.785 22.6102 91.3913C23.5555 90.998 24.4144 90.421 25.1378 89.6937L39.5244 75.2297C40.1058 74.7944 40.8233 74.5836 41.5464 74.6361C42.2694 74.6882 42.9494 75.0004 43.4628 75.5148C44.0359 76.0881 44.3609 76.8655 44.3671 77.6784C44.3731 78.4911 44.0597 79.2736 43.4949 79.8552L32.9638 90.443C31.5027 91.912 30.6821 93.9044 30.6821 95.9818C30.6824 98.0591 31.5034 100.051 32.9644 101.52C34.4257 102.989 36.4074 103.814 38.4737 103.814C40.5401 103.814 42.5216 102.989 43.9827 101.519L73.3372 72.0057C73.6186 71.7227 73.9525 71.4985 74.3202 71.3454C74.6877 71.1922 75.0817 71.1135 75.4796 71.1135C75.8775 71.1135 76.2713 71.1922 76.6391 71.3454C77.0066 71.4985 77.3407 71.7227 77.622 72.0057C77.9033 72.2885 78.1264 72.6244 78.2787 72.9938C78.4311 73.3635 78.5093 73.7596 78.5093 74.1597C78.5093 74.5597 78.4311 74.9556 78.2787 75.3253C78.1264 75.6949 77.9033 76.0308 77.622 76.3136L75.8093 78.1283C74.3482 79.5974 73.5276 81.5897 73.5278 83.6672C73.5278 85.7446 74.3489 87.7368 75.8101 89.2057C77.2712 90.6745 79.2529 91.4996 81.3194 91.4994C83.3856 91.4994 85.3671 90.6739 86.8282 89.2049L99.14 76.827C100.601 75.3582 101.422 73.3658 101.422 71.2885C101.422 69.2111 100.602 67.2187 99.1406 65.7497C97.6795 64.2805 95.698 63.4552 93.6318 63.455C91.5654 63.455 89.5836 64.2801 88.1226 65.7489L86.3359 67.5513C85.7676 68.1225 84.9966 68.4434 84.1929 68.4434C83.3892 68.4431 82.6185 68.122 82.0503 67.5505C81.4819 66.9791 81.163 66.2041 81.163 65.3961C81.1632 64.5879 81.4826 63.8131 82.051 63.2417L100.454 44.749C101.915 43.2801 102.736 41.2876 102.736 39.2103C102.735 37.1327 101.914 35.1405 100.453 33.6717C98.9921 32.2028 97.0104 31.3777 94.9442 31.3779C92.8779 31.3781 90.8962 32.2034 89.4352 33.6724L52.2088 71.0914C51.6304 71.6592 50.8524 71.9747 50.044 71.9689C49.2356 71.9632 48.4621 71.6367 47.8918 71.0604C47.3801 70.5436 47.0703 69.8591 47.0188 69.1317C46.9672 68.4044 47.1775 67.6825 47.6111 67.098L71.2898 43.295C72.7195 41.8194 73.5135 39.8373 73.5 37.7772C73.4866 35.7174 72.6668 33.7458 71.218 32.2892C69.7691 30.8326 67.8081 30.0084 65.7592 29.9949C63.7103 29.9812 61.7386 30.7796 60.271 32.2169L55.7913 36.7207C55.2155 37.0619 54.5433 37.2016 53.8802 37.1177C53.217 37.0341 52.6001 36.7318 52.1261 36.2582C51.5528 35.6849 51.2278 34.9075 51.2218 34.0947C51.2156 33.2818 51.5292 32.4995 52.0938 31.9178L69.7563 14.1591C71.1859 12.6835 71.9799 10.7011 71.9665 8.64128C71.953 6.58125 71.133 4.60958 69.6844 3.15301C68.2355 1.69645 66.2743 0.872226 64.2257 0.858749C62.1768 0.845273 60.2051 1.64361 58.7374 3.08092L29.3766 32.5947C28.8082 33.166 28.0375 33.4869 27.2338 33.4867C26.4299 33.4865 25.6594 33.1654 25.091 32.594C24.5228 32.0224 24.2037 31.2474 24.2039 30.4395C24.2041 29.6315 24.5235 28.8565 25.0918 28.2853L33.3379 20.0009C34.0832 19.2787 34.6777 18.4145 35.0869 17.4585C35.4961 16.5027 35.7118 15.4744 35.7212 14.4337C35.7308 13.3932 35.5338 12.3611 35.1421 11.3978C34.7504 10.4345 34.1718 9.55941 33.4398 8.82353C32.7079 8.08766 31.8375 7.5058 30.8794 7.11198C29.9212 6.71816 28.8947 6.52029 27.8595 6.52991C26.8246 6.53932 25.8018 6.75624 24.851 7.1676C23.9003 7.57896 23.0406 8.17665 22.3223 8.926L3.5816 27.7657C2.12055 29.2345 1.29953 31.2269 1.29932 33.3042C1.29932 34.3327 1.50062 35.3514 1.89209 36.3019C2.28356 37.2521 2.85749 38.1157 3.58096 38.843C4.30422 39.5705 5.16309 40.1474 6.10839 40.5411C7.05348 40.9349 8.0666 41.1375 9.08976 41.1377C11.156 41.1377 13.1377 40.3126 14.599 38.8438L16.3826 37.0506C16.9508 36.4792 17.7215 36.1581 18.5252 36.1579C19.3289 36.1577 20.0999 36.4785 20.6682 37.0499C21.2366 37.6211 21.556 38.3961 21.5562 39.2041C21.5562 40.012 21.2371 40.7871 20.6689 41.3584L2.2658 59.8514C0.836191 61.327 0.0421272 63.3093 0.055604 65.3691C0.0690808 67.429 0.888814 69.4006 2.33768 70.8572C3.78654 72.3138 5.74752 73.138 7.79642 73.1517C9.84532 73.1652 11.817 72.3668 13.2847 70.9295L43.3783 40.6786C43.957 40.1109 44.735 39.7958 45.5436 39.8018C46.352 39.808 47.1253 40.1346 47.6954 40.7109C48.1667 41.1871 48.4679 41.8068 48.5515 42.4734C48.6354 43.1397 48.4972 43.8153 48.1585 44.3943Z"
+    fill="#FF5678"
+/>
+    </svg>
+            <img decoding="async" src="" alt="" />Zebb
+        </a>
+        <nav>
+            <i class="fas fa-bars toggle-menu"></i>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Our Work</a></li>
+                <!-- <li><a href="#">Contact us</a></li> -->
+            </ul>
+        </nav>
+        <span>Contact us</span>
+    </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start landing -->
+    <div class="landing">
+        <div class="container">
+            <div class="text-1">We help to Create <span>Brands</span>  With Coffee</div>
+            <div class="back-g"><img src="./imgs/back-g.png" alt=""></div>
+        </div>
+        <span>See our work</span>
+    </div>
+    <!-- End landing -->
+    <!-- Start Powered -->
+    <div class="Powered">
+        <div class="container">
+            <div class="back-p"><img src="./imgs/Powered.png" alt="Powered"></div>
+            <div class="text-1">
+                <h1>Powered by <span class="highlight">talented people</span></h1>
+                <p>But I must explain to you how all thismistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.</p>
+                <p>I wrote to let them know ready to came back they kicked me of their team slack all of us are make company email.</p>
+                <div class="play">
+                    <span>Learn more</span>
+                    <i class="fa-solid fa-circle-play"></i>
+                    <p>Watch videos</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Powered -->
+    <!-- Start Things -->
+    <div class="Things">
+        <div class="container">
+            <h1 class="section-title"><span class="highlight">Things We Enjoy</span></h1>
+            <img src="./imgs/Enjoy-4.png" alt="">
+            <div class="content-grid">
+                <div class="left-column">
+                    <div class="content-item">
+                        <span class="number">04</span>
+                        <div class="content-text">
+                            <h2>Content Writing</h2>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <span class="number">05</span>
+                        <div class="content-text">
+                            <h2>Video Production</h2>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <span class="number">06</span>
+                        <div class="content-text">
+                            <h2>Social Media Marketing</h2>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-column">
+                    <div class="content-item">
+                        <span class="number">01</span>
+                        <div class="content-text">
+                            <h2>Digital Illustration</h2>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <span class="number">02</span>
+                        <div class="content-text">
+                            <h2>Website Design & Development</h2>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <span class="number">03</span>
+                        <div class="content-text">
+                            <h2>Social Media Management</h2>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+    <!--End Things  -->
+    <!-- Start Team -->
+        <div class="team">
+            <div class="container">
+                <h1><span class="highlight">Meet the Team</span></h1>
+            <div class="teamers">
+                <div class="teamer">
+                    <div class="text-2">
+                    <img src="./imgs/team-1.png" alt="">
+                        <h2>Samantha Jones</h2>
+                        <p>Illustrator</p>
+                </div>
+                </div>
+                <div class="teamer">
+                    <div class="text-2">
+                    <img src="./imgs/team-3.png" alt="">
+                        <h2>Mark Ali</h2>
+                        <p>Owner Creative Director</p>
+                </div>
+                </div>
+                <div class="teamer">
+                    <div class="text-2">
+                    <img src="./imgs/team-2.png" alt="">
+                        <h2>Davi John</h2>
+                        <p>Head of Marketing</p>
+                </div>
+                </div>
+                <div class="teamer">
+                    <div class="text-2">
+                    <img src="./imgs/team-4.png" alt="">
+                        <h2>John Daen</h2>
+                        <p>Graphic Designer</p>
+                </div>
+                </div>
+                <div class="teamer">
+                    <div class="text-2">
+                    <img src="./imgs/team-5.png" alt="">
+                        <h2>Alice Kate</h2>
+                        <p>Social Media Manager</p>
+                </div>
+                </div>
+                <div class="teamer">
+                    <div class="text-2">
+                    <img src="./imgs/team-6.png" alt="">
+                        <h2>Jhang Yui</h2>
+                        <p>Web Designer & Developer</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div> 
+    <!-- End Team -->
+    <!-- Start work -->
+        <div class="Work">
+            <div class="container"> 
+                <h1>Some of Our <span class="highlight">Previous Work</span></h1>
+                <div class="shuffle">
+                    <ul>
+                        <li class="active">ALL</li>
+                        <li>Illustrator</li>
+                        <li>app</li>
+                        <li>branding</li>
+                    </ul>
+                </div>
+                <div class="imgs-container">
+                    <img class="one" src="./imgs/work-1.jpg" alt="">
+                    <img class="tow" src="./imgs/work-2.jpg" alt="">
+                    <img class="three" src="./imgs/work-3.jpg" alt="">
+                    <img class="four" src="./imgs/work-4.jpg" alt="">
+                    <img class="five" src="./imgs/work-5.jpg" alt="">
+                    <img class="six" src="./imgs/work-6.jpg" alt="">
+                </div>
+                <span>See More</span>
+            </div>
+        </div>
+    <!-- End work -->
+    <!-- Start Testimonial-->
+        <div class="testimonial">
+            <div class="container">
+                <div class="text">
+                    <h1>Testimonial</h1>
+                    <p>Over 18,000 happy clients.</p>
+                </div>
+            </div>
+            <div class="frame">
+                <div class="box">
+                    <img src="./imgs/team-3.png" alt="">
+                    <div class="rate">
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                    </div>
+                    <div class="text-1">
+                        <p>“My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience</p>
+                        <p>Samantha Kate</p>
+                        <p>CEO of Floatcom</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./imgs/team-3.png" alt="">
+                    <div class="rate">
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                    </div>
+                    <div class="text-1">
+                        <p>“My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience</p>
+                        <p>Samantha Kate</p>
+                        <p>CEO of Floatcom</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./imgs/team-3.png" alt="">
+                    <div class="rate">
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                    </div>
+                    <div class="text-1">
+                        <p>“My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience</p>
+                        <p>Samantha Kate</p>
+                        <p>CEO of Floatcom</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./imgs/team-3.png" alt="">
+                    <div class="rate">
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                    </div>
+                    <div class="text-1">
+                        <p>“My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience</p>
+                        <p>Samantha Kate</p>
+                        <p>CEO of Floatcom</p>
+                    </div>
+                </div>
+                                    <div class="box">
+                    <img src="./imgs/team-3.png" alt="">
+                    <div class="rate">
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                    </div>
+                    <div class="text-1">
+                        <p>“My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience</p>
+                        <p>Samantha Kate</p>
+                        <p>CEO of Floatcom</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="arrow">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <i class="fa-solid fa-circle-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    <!-- End Testimonial-->
+    <!-- Start Contact -->
+        <div class="Contact">
+            <div class="container">
+                <div class="images">
+                    <img src="./imgs/Cal.png" alt="">
+                </div>
+                <div class="form">
+                    <div class="content">
+                        <h1>Need Help Making Coffee?<span class="highlight"> Contact Us</span></h1>
+                        <form action="">
+                            <div class="box">
+                                <label for="">Name</label>
+                                <input class="input" type="text" placeholder="" name="name" />
+                            </div>
+                            <div class="box">
+                                <label for="">Email</label>
+                                <input class="input" type="email" placeholder="" name="email" />
+                            </div>
+                            <div class="box">
+                                <label for="">Message</label>
+                                <textarea class="input" placeholder="" name="message"></textarea>
+                            </div>
+                            <input type="submit" value="Send" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End Contact -->
+    <!-- Start Join -->
+        <div class="join">
+            <div class="container">
+                <div class="form">
+                    <div class="content">
+                        <h1>Join Our Newsletters & get<span class="highlight">Coffee Formula!</span></h1>
+                        <form action="">
+                            <div class="box">
+                                <label for="">Name</label>
+                                <input class="input" type="text" placeholder="" name="name" />
+                            </div>
+                            <div class="box">
+                                <label for="">Email</label>
+                                <input class="input" type="email" placeholder="" name="email" />
+                            </div>
+                            <input type="submit" value="Send" />
+                        </form>
+                    </div>
+                </div>
+                <div class="images">
+                    <img src="./imgs/Join.png" alt="">
+                </div>
+            </div>
+        </div>
+    <!-- End Join -->
+    <!-- Start Footer -->
+        <div class="footer">
+            <div class="img-1">
+                <img src="./imgs/footer.png" alt="">
+            </div>
+            <div class="container">
+                <div class="info">
+                    <div class="box-1">
+                        <div class="text-info-1">
+                            <svg
+                            width="103"
+                            height="104"
+                            viewBox="0 0 103 104"
+                            fill="none"
+                            >
+                            <path
+                            d="M48.1585 44.3943L14.1205 78.6156C13.397 79.3429 12.823 80.2062 12.4314 81.1567C12.0399 82.1069 11.8382 83.1254 11.8382 84.1541C11.8382 85.1826 12.0395 86.2013 12.4309 87.1515C12.8224 88.1019 13.3963 88.9655 14.1198 89.6928C14.8431 90.4204 15.7019 90.9973 16.6472 91.3909C17.5923 91.7847 18.6054 91.9873 19.6286 91.9875C20.6518 91.9875 21.6649 91.785 22.6102 91.3913C23.5555 90.998 24.4144 90.421 25.1378 89.6937L39.5244 75.2297C40.1058 74.7944 40.8233 74.5836 41.5464 74.6361C42.2694 74.6882 42.9494 75.0004 43.4628 75.5148C44.0359 76.0881 44.3609 76.8655 44.3671 77.6784C44.3731 78.4911 44.0597 79.2736 43.4949 79.8552L32.9638 90.443C31.5027 91.912 30.6821 93.9044 30.6821 95.9818C30.6824 98.0591 31.5034 100.051 32.9644 101.52C34.4257 102.989 36.4074 103.814 38.4737 103.814C40.5401 103.814 42.5216 102.989 43.9827 101.519L73.3372 72.0057C73.6186 71.7227 73.9525 71.4985 74.3202 71.3454C74.6877 71.1922 75.0817 71.1135 75.4796 71.1135C75.8775 71.1135 76.2713 71.1922 76.6391 71.3454C77.0066 71.4985 77.3407 71.7227 77.622 72.0057C77.9033 72.2885 78.1264 72.6244 78.2787 72.9938C78.4311 73.3635 78.5093 73.7596 78.5093 74.1597C78.5093 74.5597 78.4311 74.9556 78.2787 75.3253C78.1264 75.6949 77.9033 76.0308 77.622 76.3136L75.8093 78.1283C74.3482 79.5974 73.5276 81.5897 73.5278 83.6672C73.5278 85.7446 74.3489 87.7368 75.8101 89.2057C77.2712 90.6745 79.2529 91.4996 81.3194 91.4994C83.3856 91.4994 85.3671 90.6739 86.8282 89.2049L99.14 76.827C100.601 75.3582 101.422 73.3658 101.422 71.2885C101.422 69.2111 100.602 67.2187 99.1406 65.7497C97.6795 64.2805 95.698 63.4552 93.6318 63.455C91.5654 63.455 89.5836 64.2801 88.1226 65.7489L86.3359 67.5513C85.7676 68.1225 84.9966 68.4434 84.1929 68.4434C83.3892 68.4431 82.6185 68.122 82.0503 67.5505C81.4819 66.9791 81.163 66.2041 81.163 65.3961C81.1632 64.5879 81.4826 63.8131 82.051 63.2417L100.454 44.749C101.915 43.2801 102.736 41.2876 102.736 39.2103C102.735 37.1327 101.914 35.1405 100.453 33.6717C98.9921 32.2028 97.0104 31.3777 94.9442 31.3779C92.8779 31.3781 90.8962 32.2034 89.4352 33.6724L52.2088 71.0914C51.6304 71.6592 50.8524 71.9747 50.044 71.9689C49.2356 71.9632 48.4621 71.6367 47.8918 71.0604C47.3801 70.5436 47.0703 69.8591 47.0188 69.1317C46.9672 68.4044 47.1775 67.6825 47.6111 67.098L71.2898 43.295C72.7195 41.8194 73.5135 39.8373 73.5 37.7772C73.4866 35.7174 72.6668 33.7458 71.218 32.2892C69.7691 30.8326 67.8081 30.0084 65.7592 29.9949C63.7103 29.9812 61.7386 30.7796 60.271 32.2169L55.7913 36.7207C55.2155 37.0619 54.5433 37.2016 53.8802 37.1177C53.217 37.0341 52.6001 36.7318 52.1261 36.2582C51.5528 35.6849 51.2278 34.9075 51.2218 34.0947C51.2156 33.2818 51.5292 32.4995 52.0938 31.9178L69.7563 14.1591C71.1859 12.6835 71.9799 10.7011 71.9665 8.64128C71.953 6.58125 71.133 4.60958 69.6844 3.15301C68.2355 1.69645 66.2743 0.872226 64.2257 0.858749C62.1768 0.845273 60.2051 1.64361 58.7374 3.08092L29.3766 32.5947C28.8082 33.166 28.0375 33.4869 27.2338 33.4867C26.4299 33.4865 25.6594 33.1654 25.091 32.594C24.5228 32.0224 24.2037 31.2474 24.2039 30.4395C24.2041 29.6315 24.5235 28.8565 25.0918 28.2853L33.3379 20.0009C34.0832 19.2787 34.6777 18.4145 35.0869 17.4585C35.4961 16.5027 35.7118 15.4744 35.7212 14.4337C35.7308 13.3932 35.5338 12.3611 35.1421 11.3978C34.7504 10.4345 34.1718 9.55941 33.4398 8.82353C32.7079 8.08766 31.8375 7.5058 30.8794 7.11198C29.9212 6.71816 28.8947 6.52029 27.8595 6.52991C26.8246 6.53932 25.8018 6.75624 24.851 7.1676C23.9003 7.57896 23.0406 8.17665 22.3223 8.926L3.5816 27.7657C2.12055 29.2345 1.29953 31.2269 1.29932 33.3042C1.29932 34.3327 1.50062 35.3514 1.89209 36.3019C2.28356 37.2521 2.85749 38.1157 3.58096 38.843C4.30422 39.5705 5.16309 40.1474 6.10839 40.5411C7.05348 40.9349 8.0666 41.1375 9.08976 41.1377C11.156 41.1377 13.1377 40.3126 14.599 38.8438L16.3826 37.0506C16.9508 36.4792 17.7215 36.1581 18.5252 36.1579C19.3289 36.1577 20.0999 36.4785 20.6682 37.0499C21.2366 37.6211 21.556 38.3961 21.5562 39.2041C21.5562 40.012 21.2371 40.7871 20.6689 41.3584L2.2658 59.8514C0.836191 61.327 0.0421272 63.3093 0.055604 65.3691C0.0690808 67.429 0.888814 69.4006 2.33768 70.8572C3.78654 72.3138 5.74752 73.138 7.79642 73.1517C9.84532 73.1652 11.817 72.3668 13.2847 70.9295L43.3783 40.6786C43.957 40.1109 44.735 39.7958 45.5436 39.8018C46.352 39.808 47.1253 40.1346 47.6954 40.7109C48.1667 41.1871 48.4679 41.8068 48.5515 42.4734C48.6354 43.1397 48.4972 43.8153 48.1585 44.3943Z"
+                            fill="#FF5678"
+                            />
+                        </svg>
+                        <h1>Zebb</h1>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-threads"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <h4>Address</h4>
+                    <p>+123 654 987</p>
+                    <p>877 The Bronx, NY
+                        14568 USA</p>
+                    <p></p>
+                </div>
+                <div class="box">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Search Engine Optimization</li>
+                        <li>Web design & development</li>
+                        <li>Social media management</li>
+                        <li>Social media marketing</li>
+                        <li>Content writing</li>
+                        <li>Video production</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h4>Company</h4>
+                    <ul>
+                        <li>Case Studies</li>
+                        <li>Web design & Services</li>
+                        <li>Social media management</li>
+                        <li>About</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li>Featured artists</li>
+                        <li>The Portal</li>
+                        <li>Live events</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h4>Legal Stuff</h4>
+                    <ul>
+                        <li>Shipping & Delivery</li>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy & Policy</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="img-2">
+                <img src="./imgs/Footer.png" alt="">
+            </div>
+        </div>
+    <!-- End Footer -->
+    <!-- Start Terms -->
+        <div class="terms">
+            <div class="container">
+                <div class="text">
+                    <p>Copyright ©2020 Zebb Agency. All Right Reserved</p>
+                    <p>Cookie Policy</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    <!-- End Terms-->
+</body>
+</html>
